@@ -20,9 +20,9 @@ else if (CreditScore >= 650 && CreditScore === 750) {
         } else {
             console.log("Customer is employed")
             if (DTI < 40) {
-                console.log("DTI ratio is more than 40%,")
+                console.log("DTI ratio is less than 40%,Loan is Approved ")
             } else {
-                console.log("DTI ratio is less than 40%, ")
+                console.log("DTI ratio is more than 40%,Loan is not Approved ")
 
             }
         }
